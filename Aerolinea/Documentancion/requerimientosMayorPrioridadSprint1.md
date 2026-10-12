@@ -1,0 +1,19 @@
+# Análisis de requerimientos de mayor prioridad - Comisión 7
+
+## Historias de Usuarios para Sprint 1
+
+| Id | Nombre | Descripción | Prioridad | Estimación (hs) | Front-end | Back-end | Diseño | Testing |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **US-01** | Creación de Vuelos Programados | Como Administrador del sistema, quiero crear nuevos vuelos definiendo ruta (origen/destino), días de operación, horarios de salida y llegada, disponibilidad anual (periodo del año) y tipo de avión, diferenciado por vuelo. Para ponerlos a la venta en el catálogo oficial de la aerolínea. | Alta | 6 hs | X | X | | X |
+| **US-02** | Modificación de Vuelos Programados | Como Administrador del sistema, quiero modificar los datos de un vuelo existente (horarios, días de operación, periodo anual, capacidades o precios por clase), para gestionar los cambios en un determinado vuelo. | Media | 4 hs | X | X | | X |
+| **US-03** | Cancelación de un Vuelo en Fecha Específica | Como Administrador del sistema, quiero cancelar la salida de un vuelo para una fecha puntual en específico, para responder a situaciones inesperadas (clima, mantenimiento, etc) sin afectar la programación anual de las demás salidas programadas. | Media | 4 hs | X | X | | X |
+| **US-04** | Cancelación de la Operación Completa de un Vuelo | Como Administrador del sistema, quiero dar de baja la operación completa de un vuelo (todas sus fechas asociadas), para retirar del catálogo una ruta o itinerario. | Baja | 3 hs | X | X | | X |
+| **US-05** | Notificación por Email por Cancelación de vuelo | Como Pasajero con reserva en un vuelo, quiero recibir una alerta por correo electrónico automáticamente cuando un vuelo sea cancelado, para estar informado a tiempo y poder reprogramar o gestionar mi viaje. | Alta | 4 hs | | X | X | X |
+| **US-06** | Notificación por Email por Modificación de Vuelo | Como Pasajero con reserva en un vuelo, quiero recibir una alerta por correo electrónico automáticamente cuando un vuelo sufra un cambio, para estar informado a tiempo y poder reprogramar o gestionar mi viaje. | Alta | 4 hs | | X | X | X |
+| **US-07** | Búsqueda de Vuelos Directos | Como Pasajero, quiero buscar vuelos de tramos directos indicando origen, destino, tipo de tramo (solo ida o ida y vuelta) y fechas, para consultar las opciones disponibles. | Alta | 5 hs | X | X | | X |
+| **US-08** | Inicio de Sesión y Control de Acceso por Roles | Como Usuario registrado (Pasajero, Empleado de mostrador o Administrador), quiero iniciar sesión con mi email y contraseña, para acceder a las funcionalidades y permisos correspondientes a mi perfil. | Alta | 3 hs | X | X | X | X |
+| **US-09** | Registro de Cuenta de Pasajeros | Como Pasajero nuevo, quiero crear una cuenta en la plataforma ingresando mis datos personales (DNI, Nombre, Apellido, Email, Teléfono, Contraseña y Fecha de nacimiento), para agilizar futuras compras de pasajes y consultar mi historial de reservas. | Alta | 4 hs | X | X | | X |
+| **US-10** | Compra de Pasajes | **Como Comprador**, quiero seleccionar hasta 9 pasajes en una misma transacción e ingresar los datos personales (DNI, Nombre, Edad y Teléfono) de cada integrante, **para** registrar formalmente a todos los pasajeros que viajan conmigo. | Media | 3 hs | X | X | | X |
+| **US-13** | Cancelación de Reserva desde Plataforma Web | **Como Pasajero**, quiero solicitar la cancelación de mi reserva desde el portal web hasta 48 horas antes del despegue, **para** autogestionar la anulación de mi pasaje. | Alta | 2 hs | X | X | | X |
+
+> Repriorización (Retrospectiva Sprint 1): US-10 y US-13 se adelantan desde el Sprint 2.

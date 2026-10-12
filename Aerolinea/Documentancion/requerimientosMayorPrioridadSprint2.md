@@ -1,0 +1,18 @@
+# Requerimientos de mayor prioridad para Sprint 2
+
+| Id | Nombre | Descripción | Prioridad | Estimación (hs) | Front-end | Back-end | Diseño | Testing |
+|---|---|---|---|---|---|---|---|---|
+| US-10 | Compra de Pasajes (Movida al Sprint 1) | **Como Comprador**, quiero seleccionar hasta 9 pasajes en una misma transacción e ingresar los datos personales (DNI, Nombre, Edad y Teléfono) de cada integrante, **para** registrar formalmente a todos los pasajeros que viajan conmigo. | Media | 3 hs | X | X |  | X |
+| US-11 | Pago con Único Medio de Pago | **Como Comprador**, quiero abonar una transacción con una tarjeta de débito y/o crédito, **para** finalizar la compra de pasajes exitosamente. | Alta | 4 hs | X | X |  | X |
+| US-12 | Pago Combinado con Múltiples Tarjetas | **Como Comprador**, quiero abonar una transacción dividiendo el monto total entre varias tarjetas de débito y/o crédito, **para** contar con flexibilidad en la financiación de la compra. | Media | 6 hs | X | X |  | X |
+| US-13 | Cancelación de Reserva desde Plataforma Web (Movida al Sprint 1) | **Como Pasajero**, quiero solicitar la cancelación de mi reserva desde el portal web hasta 48 horas antes del despegue, **para** autogestionar la anulación de mi pasaje. | Alta | 2 hs | X | X |  | X |
+| US-14 | Cancelación de Reserva desde App Móvil (Sprint 3) | **Como Pasajero**, quiero solicitar la cancelación de mi reserva desde la App Móvil hasta 48 horas antes del despegue, **para** anular mi pasaje de forma rápida desde mi dispositivo celular. | Baja | 3 hs | X | X |  | X |
+| US-15 | Consulta Tabular de Ocupación por Vuelo | **Como Administrador**, quiero consultar la ocupación actual de un vuelo en una tabla simple (asientos vendidos vs. disponibles), **para** conocer el estado de ventas de una salida específica. | Alta | 5 hs | X | X |  | X |
+| US-16 | Filtros Avanzados y Comparativa por Período y Clase | **Como Administrador**, quiero aplicar filtros por rango de fechas, clase y rutas para visualizar gráficos comparativos de ocupación en tiempo real. | Alta | 2 hs | X | X | X | X |
+| US-17 | Exportación de Reportes de Ocupación (PDF) (Sprint 3) | **Como Administrador**, quiero exportar el reporte de ocupación generalmente en formato PDF para tenerlos descargados y poder compartirlos a miembros de la empresa en caso de ser necesario. | Baja | 4 hs | X | X | X | X |
+| US-18 | Búsqueda ágil de reservas por pasajero | **Como Empleado de mostrador**, quiero buscar reservas por DNI en la interfaz de aeropuerto, **para** agilizar la atención presencial del pasajero. | Alta | 2 hs | X | X |  | X |
+| US-19 | Búsqueda ágil de reservas por vuelo | **Como Empleado de mostrador**, quiero buscar reservas por número de vuelo en la interfaz de aeropuerto, **para** agilizar la atención presencial del pasajero. | Alta | 2 hs | X | X |  | X |
+| US-20 | Validación de tickets electrónicos | **Como Empleado de mostrador**, quiero validar tickets electrónicos en la interfaz de aeropuerto, **para** agilizar el embarque de los pasajeros. | Alta | 4 hs | X | X | X | X |
+| US-21 | Reubicación manual de pasajeros (Sprint 3) | **Como Empleado de mostrador**, quiero consultar vuelos alternativos y reubicar manualmente a un pasajero... | Baja | 3 hs | X | X | X | X |
+
+> Repriorización (Retrospectiva Sprint 1): US-10 y US-13 se adelantan al Sprint 1; US-17 y US-21 se postergan al Sprint 3. US-14 ya pertenece al Sprint 3.
